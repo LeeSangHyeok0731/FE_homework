@@ -1,39 +1,93 @@
 body{
     background: white;
 }
-
+a {
+    text-decoration-line: none;
+}
 .body{
-    width: 470px;
+    width: 467px;
     height: 250px;
     background-color: white;
     display: flex;
-    border: 1px solid gray;
+    border: 1px solid rgb(207, 209, 211);
     border-radius: 5px;
+    border-top:0px;
+    border-top-left-radius: 0px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.body2{
+    width: 467px;
+    height: 250px;
+    background-color: white;
+    display: flex;
+    border: 1px solid rgb(207, 209, 211);
+    border-radius: 5px;
+    border-top:0px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.body3{
+    width: 467px;
+    height: 250px;
+    background-color: white;
+    display: flex;
+    border: 1px solid rgb(207, 209, 211);
+    border-radius: 5px;
+    border-top:0px;
+    border-top-right-radius:0px;
     position: relative;
     align-items: center;
     justify-content: center;
 }
 .Id {
+    width: 155px;
+    height: 55px;
     background-color: white;
     display: flex;
-    border: 1px solid gray;
-    border-radius: 5px;
+    border: 1px solid rgb(207, 209, 211);
+    border-right:0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     position: relative;
     align-items: center;
     justify-content: center;
     border-bottom:0px;
-    border-top:155px;
-    border-left:50px;
-    border-right:50px;
-    padding:30px;
+}
+.Id2 {
+    width: 155px;
+    height: 55px;
+    background-color: rgb(248, 249, 250);
+    display: flex;
+    border: 1px solid rgb(207, 209, 211);
+    border-radius:5px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
 }
 .first {
     width: 155px;
     height: 55px;
     background-color: rgb(248, 249, 250);
     display: flex;
-    border: 1px solid gray;
+    border: 1px solid rgb(207, 209, 211);
     border-radius: 5px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.first2 {
+    width: 155px;
+    height: 55px;
+    background-color: white;
+    display: flex;
+    border: 1px solid rgb(207, 209, 211);
+    border-radius: 5px;
+    border-bottom:0px;
+    border-left:0px;
+    border-right:0px;
     position: relative;
     align-items: center;
     justify-content: center;
@@ -43,8 +97,22 @@ body{
     height: 55px;
     background-color: rgb(248, 249, 250);
     display: flex;
-    border: 1px solid gray;
+    border: 1px solid rgb(207, 209, 211);
     border-radius: 5px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.QR2 {
+    width: 155px;
+    height: 55px;
+    background-color: white;
+    display: flex;
+    border: 1px solid rgb(207, 209, 211);
+    border-radius: 5px;
+    border-bottom:0px;
+    border-left:0px;
+    border-bottom-right-radius:0px;
     position: relative;
     align-items: center;
     justify-content: center;
@@ -54,7 +122,7 @@ button{
 }
 p {
     border-width: 1px;
-    border-color: gray;
+    border-color: rgb(207, 209, 211);
     border-style: solid;
     width:500px;
 }
@@ -65,5 +133,10 @@ h1 {
 #container{
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+#container2{
+    position:relative;
+    display: flex;
     justify-content: center;
 }

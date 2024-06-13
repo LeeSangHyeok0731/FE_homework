@@ -1,3 +1,0 @@
-function firstnumber(){
-    alert('hello');
-}
