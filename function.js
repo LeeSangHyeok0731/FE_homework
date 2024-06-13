@@ -1,0 +1,3 @@
+function firstnumber(){
+    alert('hello');
+}
