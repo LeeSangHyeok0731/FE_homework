@@ -1,5 +1,6 @@
 body{
     background: white;
+    font-family: -apple-system, BlinkMacSystemFont, helvetica, "Apple SD Gothic Neo", sans-serif;
 }
 a {
     text-decoration-line: none;
@@ -56,7 +57,7 @@ a {
     justify-content: center;
     border-bottom:0px;
 }
-.Id2 {
+.Id2, .first {
     width: 155px;
     height: 55px;
     background-color: rgb(248, 249, 250);
@@ -67,17 +68,7 @@ a {
     align-items: center;
     justify-content: center;
 }
-.first {
-    width: 155px;
-    height: 55px;
-    background-color: rgb(248, 249, 250);
-    display: flex;
-    border: 1px solid rgb(207, 209, 211);
-    border-radius: 5px;
-    position: relative;
-    align-items: center;
-    justify-content: center;
-}
+
 .first2 {
     width: 155px;
     height: 55px;
@@ -139,4 +130,13 @@ h1 {
     position:relative;
     display: flex;
     justify-content: center;
+}
+#login{
+    width: 400px;
+    height: 55px;
+    background-color: #09aa5c;
+    display: flex;
+    justify-content: center;
+    position:relative;
+    align-items : center;
 }
