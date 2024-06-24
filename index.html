@@ -25,25 +25,31 @@
     <div id="container">
         <a href="index.html">
             <div class="Id" style="color: black">
+                <img src="id_password_icon_color.png" alt="first_icon_notcolor" width="16x" height="16px" style="padding-right:10px;"/>
                 ID 로그인
             </div>
         </a>
         <a href="index2.html">
             <div class="first" style="color: gray">
+                <img src="first_icon_notcolor.png" alt="first_icon_notcolor" width="16x" height="16px" style="padding-right:10px;"/>
                일회용 번호
             </div>
         </a>
         <a href="index3.html">
             <div class="QR" style="color: gray">
+                <img src="qr_icon_notcolor.png" alt="first_icon_notcolor" width="16x" height="16px" style="padding-right:10px;"/>
                QR코드
             </div>
         </a>
     </div>
     <div id="container2">
         <div class="body" style="align-items:flex-start; padding-top:19px; flex-wrap: wrap;">
-            <input input type="text" placeholder="아이디" style="height: 40px; width:410px; border-top-left-radius: 5px; border-top-right-radius: 5px; position:relative; top: 1px; cursor: pointer;">
-            <input input id="password-input" type="text" placeholder="비밀번호" style="height: 40px; width:410px; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px;position:absolute; top: 64px; cursor:pointer;">
-            <input type="checkbox"style="position:absolute; top:115px; left: 20px;"><a style="position:absolute; top:115px; left: 40px; font-size:15px">로그인 상태유지</a>
+            <div style="border: 2px solid black; height:50px; width:415px; border-top-left-radius: 5px; border-top-right-radius: 5px;display:flex; position:relative; top: 1px; cursor: pointer; align-items:center;">
+                <img src="id_face_icon.png" alt="first_icon_notcolor" width="16x" height="16px" style="padding-right:10px; padding-left:13px; padding-bottom:7px;"/>
+                <input input type="text" placeholder="아이디" style="border:0px; width:350px; height:38px; outline:none; bottom:3px; position: relative;">
+            </div>
+            <input input id="password-input" type="text" style="height: 40px; width:410px; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px;position:absolute; top: 64px; cursor:pointer;">
+            <input type="radio"style="position:absolute; top:115px; left: 20px;"><a style="position:absolute; top:115px; left: 40px; font-size:15px">로그인 상태유지</a>
             <button id="login" 
             style="text-align: center;
             top:30px; 
