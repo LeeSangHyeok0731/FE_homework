@@ -7,7 +7,7 @@ a {
 }
 .body{
     width: 467px;
-    height: 250px;
+    height: 230px;
     background-color: white;
     display: flex;
     border: 1px solid rgb(207, 209, 211);
@@ -139,4 +139,45 @@ h1 {
     justify-content: center;
     position:relative;
     align-items : center;
+}
+bottom{
+    display:flex;
+    justify-content: center;
+    padding-top:30px;
+}
+footer{
+    padding: 63px 0px 32px 0;
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    width:93%;
+    display: flex;
+    justify-content: center;
+}
+#ul{
+    width:60%;
+    display: flex;
+    justify-content: center;
+}
+#li{
+    list-style-type: none;
+    color: gray;
+    justify-content: space-around;
+    font-size:12px;
+    left:10px;
+}
+li{
+    list-style-type: none;
+    color: gray;
+    justify-content: space-around;
+    font-size:14px;
+    left:10px;
+}
+#NAVER{
+    text-align: center;
+    color: rgb(3,207,93); 
+    font-family: "Kanit", sans-serif;
+    font-size: 48px;
 }

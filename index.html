@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="hello.css">
 </head>
 <body>
-    <select style="position:absolute; left:1050px; top: 20px; padding:5px;">
+    <script src="function.js"></script>
+    <select style="position:absolute; left:1050px; top: 20px; padding:5px; border-color:gray">
         <option>한국어</option>
         <option>English</option>
         <option>中文(简体)</option>
@@ -43,16 +44,23 @@
         </a>
     </div>
     <div id="container2">
-        <div class="body" style="align-items:flex-start; padding-top:19px; flex-wrap: wrap;">
+        <div class="body" style="align-items:flex-start; padding-top:19px; flex-wrap: wrap; position:relative">
             <div style="border: 2px solid black; height:50px; width:415px; border-top-left-radius: 5px; border-top-right-radius: 5px;display:flex; position:relative; top: 1px; cursor: pointer; align-items:center;">
                 <img src="id_face_icon.png" alt="first_icon_notcolor" width="16x" height="16px" style="padding-right:10px; padding-left:13px; padding-bottom:7px;"/>
                 <input input type="text" placeholder="아이디" style="border:0px; width:350px; height:38px; outline:none; bottom:3px; position: relative;">
             </div>
-            <input input id="password-input" type="text" style="height: 40px; width:410px; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px;position:absolute; top: 64px; cursor:pointer;">
-            <input type="radio"style="position:absolute; top:115px; left: 20px;"><a style="position:absolute; top:115px; left: 40px; font-size:15px">로그인 상태유지</a>
+
+            <div style="border: 1px solid rgb(207, 209, 211); height:50px; width:415px; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; display:flex ; top:71px ; position:absolute; cursor: pointer; align-items:center;">
+                <img src="password_icon.png" alt="first_icon_notcolor" width="16x" height="16px" style="padding-right:10px; padding-left:13px; padding-bottom:6px; position:relative"/>
+                <input input type="text" placeholder="비밀번호"  style="border:0px; width:350px; height:38px; outline:none; top:0px; position: relative;">
+            </div>
+            <img id="img"src="./img/check_icon_off.png" onclick="toggleImg()" alt="check_icon_notcolor" width="16px" height="16px" style="position:absolute; top: 132px; left: 20px;">
+            <a style="position:absolute; top:130px; left: 40px; font-size:15px">
+                로그인 상태유지
+            </a>
             <button id="login" 
             style="text-align: center;
-            top:30px; 
+            top:47px; 
             font-size :25px;
             color:white;
             border-radius:10px; 
@@ -61,5 +69,27 @@
             ">로그인</button>
         </div>
     </div>
+    <ul>
+        <li>비밀번호 찾기</li>
+        <a style="font-size:13px; color:rgb(220, 219, 219); padding-left:14px; padding-right:14px">|</a>
+        <li>아이디 찾기</li>
+        <a style="font-size:13px;  color:rgb(200, 219, 219); padding-left:14px; padding-right:14px;">|</a>
+        <li>회원가입</li>
+    </ul>
+    <bottom>
+            <img id="ad "src="ad.png" alt="ad" style=" width: 467px; height: 160px;"/>
+    </bottom>
+    <footer>
+        <ul id="ul">
+            <li id="li">이용약관</li>
+            <a style="font-size:13px; color:rgb(220, 219, 219); padding-left:7px; padding-right:7px">|</a>
+            <li id="li">개인정보 처리 방침</li>
+            <a style="font-size:13px;  color:rgb(200, 219, 219); padding-left:7px; padding-right:7px;">|</a>
+            <li id="li">책임의 한계와 법적 고지</li>
+            <a style="font-size:13px;  color:rgb(200, 219, 219); padding-left:7px; padding-right:7px;">|</a>
+            <li id="li">회원정보 고객센터</li>
+        </ul>
+    </footer>
+    <p id="NAVER">NAVER</p>
 </body>
 </html>
